@@ -7,26 +7,8 @@
 }
 
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-}
-.indice {
     position: absolute;
-    top: 0;
-    right: 0;
-    transform: translate(50%, 0); 
-}
-
-.prueba {
-    color: white;
-    font-size: 60px;
-    font-weight: bold;
-    line-height: 1;
-    margin-left: 20px;
-    margin-right: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .overlay {
@@ -50,9 +32,41 @@ body {
     position: relative;
     z-index: 2; 
 }
+.overlay div{
+
+    position: relative;
+    z-index: 2; 
+
+}
+
+.header {
+    background-image: url('../deco/tomorrowland_tulum.webp');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    line-height: 50px;
+    color: aquamarine;
+    background-attachment: fixed;
+}
+
+.indice {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(50%, 0); 
+}
+
+.prueba {
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 1;
+    margin-left: 20px;
+    margin-right: 20px;
+}
 
 .container {
-    text-align: center;
+    text-align: left;
     font-size: 35px;
     line-height: 1;
     font-style: italic;
@@ -63,27 +77,86 @@ body {
 }
 
 .panel {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 2;
+    font-style: inherit;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-size: 36px;
+    line-height: 1;
+    text-align: center;
+    align-items: center;
 }
 
-form {
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    background-color: #f9f9f9;
+.section {
+    color: white;
+    font-size: 60px;
+    line-height: 1;
 }
 
-form label,
-form input {
+.definition {
+    font-size: 20px;
+    color: white;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.image-container {
     display: block;
-    margin-bottom: 10px;
+    align-items: center;
+    padding-left: 20px;
+    text-align: center;
 }
 
-form input[type="submit"] {
-    margin-top: 20px;
+.image-container img {
+    margin-right: 20px;
 }
 
+.section-2 {
+    background-image: url('../deco/img.jpg');
+    background-size: cover;
+    background-position: center; 
+    background-attachment: fixed;
+}
+
+.section-3 {
+    background-image: url('../deco/zamna.jpg');
+    background-size: cover;
+    background-position: center; 
+    background-attachment: fixed;
+}
+
+.title {
+    align-items: center;
+    text-align: center;
+}
+
+.image {
+    
+        display: block;
+        margin-left: auto; 
+        margin-right: auto;
+    }
+
+.estilo {
+    font-size: 70px;
+    line-break: auto;
+    color: white;
+}
+
+.video-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto; 
+  }
+  
+
+  video {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    outline: none;
+    margin-bottom: -50px;
+    margin-top: -50px;
+  }
+  
+  
