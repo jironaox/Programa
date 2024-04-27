@@ -40,7 +40,7 @@ body {
 }
 
 .header {
-    background-image: url('../deco/viajes.jpg');
+    background-image: url('deco/viajes.jpg');
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
