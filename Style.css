@@ -141,16 +141,7 @@ body {
     line-break: auto;
     color: white;
 }
-  body {
-      margin: 0;
-      padding: 0;
-      overflow: hidden; /* Evita el desplazamiento de la página */
-    }
-    .full-screen-img {
-      width: 100vw; /* Ancho igual al ancho de la ventana */
-      height: 100vh; /* Altura igual a la altura de la ventana */
-      object-fit: cover; /* Ajusta la imagen para cubrir completamente el contenedor */
-    }
+
 .video-container {
     width: 100%;
     max-width: 800px;
