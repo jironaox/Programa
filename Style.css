@@ -37,7 +37,15 @@
     position: relative;
     z-index: 2; 
 }
-
+.container {
+    text-align: left;
+    font-size: 35px;
+    line-height: 1;
+    font-style: italic;
+    background-attachment: fixed;
+    z-index: 1;
+    line-height: 2;
+    color: white;
 
         form {
             margin: auto;
