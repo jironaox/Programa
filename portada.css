@@ -1,0 +1,27 @@
+
+.imagen{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+body {
+    height: 100vh;
+    background: linear-gradient(45deg, #9890e3 0%, #b1f4cf 100%);
+    background-size: 400% 400%;
+    animation: gradient 12s ease-in infinite;
+}
+
+@keyframes gradient{
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+
+}
